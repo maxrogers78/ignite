@@ -12,14 +12,20 @@ Here you can know the upcoming videogames and search your favorites ones!
 
 In the project directory, run
 
-`npm install`
+```
+npm install
+```
 
 or
 
-`npm i`
+```
+npm i
+```
 
 ## Run application (development mode)
 
 In the project directory, run
 
-`npm start`
+```
+npm start
+```
