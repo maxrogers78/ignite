@@ -22,7 +22,6 @@ const getCurrentDay = () => {
   }
 };
 
-const today = new Date();
 const currentYear = new Date().getFullYear();
 const currentMonth = getCurrentMonth();
 const currentDay = getCurrentDay();
@@ -40,3 +39,6 @@ export const upcomingGamesURL = () => `${base_url}${upcoming_games}`;
 export const newGamesURL = () => `${base_url}${new_games}`;
 // GAME DETAILS
 export const gameDetailsURL = (game_id) => `${base_url}games/${game_id}`;
+// GAME SCREENSHOTS
+export const gameScreenshotURL = (game_id) =>
+  `${base_url}games/${game_id}/screenshots`;
