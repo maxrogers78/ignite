@@ -12,7 +12,11 @@ const GameDetail = () => {
         <Stats>
           <div className="rating">
             <h3>{game.name}</h3>
-            <p>Rating: {game.rating}</p>
+            {game.rating === 0 ? (
+              <p>Not rated</p>
+            ) : (
+              <p>Rating: {game.rating}</p>
+            )}
           </div>
           <Info>
             <h3>Platforms</h3>
@@ -40,6 +44,7 @@ const GameDetail = () => {
 };
 
 const CardShadow = styled(motion.div)`
+  padding: 3rem 0;
   width: 100%;
   min-height: 100vh;
   overflow-y: scroll;
@@ -91,6 +96,10 @@ const Platforms = styled(motion.div)`
 
   img {
     margin-left: 3rem;
+  }
+
+  h3 {
+    margin: 0 1rem;
   }
 `;
 
