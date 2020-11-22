@@ -53,6 +53,11 @@ const GlobalStyles = createGlobalStyle`
         text-decoration: none;
         color: #333;
     }
+
+    input {
+        font-weight: bold;
+        font-family: inherit;
+    }
 `;
 
 export default GlobalStyles;
