@@ -1,3 +1,4 @@
+// React
 import React, { useEffect } from "react";
 // Redux
 import { useDispatch, useSelector } from "react-redux";
@@ -6,11 +7,13 @@ import { loadGames } from "../actions/gamesAction";
 // Components
 import Game from "../components/Game";
 import GameDetail from "../components/GameDetail";
-// Styling
+// Styled Components
 import styled from "styled-components";
+// Framer Motion
 import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
+// Router
 import { useLocation } from "react-router-dom";
-// Animations
+// animations
 import { fadeIn } from "../animations";
 
 const Home = () => {

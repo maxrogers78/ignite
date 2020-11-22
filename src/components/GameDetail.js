@@ -1,9 +1,16 @@
+// React
 import React from "react";
+// Styled Components
 import styled from "styled-components";
+// Framer Motion
 import { motion } from "framer-motion";
+// Redux
 import { useSelector } from "react-redux";
+// Router
 import { useHistory } from "react-router-dom";
+// util
 import { smallImage } from "../util";
+// images
 import playstation from "../img/playstation.svg";
 import steam from "../img/steam.svg";
 import xbox from "../img/xbox.svg";

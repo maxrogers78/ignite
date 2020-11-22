@@ -1,9 +1,16 @@
+// React
 import React, { useState } from "react";
+// Styled Components
 import styled from "styled-components";
+// Framer Motion
 import { motion } from "framer-motion";
+// images
 import logo from "../img/logo.svg";
+// Actions
 import { fetchSearch, clearSearch } from "../actions/gamesAction";
+// Redux
 import { useDispatch } from "react-redux";
+// animations
 import { fadeIn } from "../animations";
 
 const Nav = () => {

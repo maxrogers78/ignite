@@ -1,4 +1,6 @@
+// Axios
 import axios from "axios";
+// api
 import { gameDetailsURL, gameScreenshotURL } from "../api";
 
 export const loadDetail = (id) => async (dispatch) => {

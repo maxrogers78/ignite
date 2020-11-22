@@ -1,8 +1,12 @@
+// React
 import React from "react";
+// Pages
 import Home from "./pages/Home";
-import GlobalStyles from "./components/GlobalStyles";
-import { Route } from "react-router-dom";
+// Components
 import Nav from "./components/Nav";
+import GlobalStyles from "./components/GlobalStyles";
+// Router
+import { Route } from "react-router-dom";
 
 const App = () => {
   return (

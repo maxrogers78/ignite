@@ -1,10 +1,18 @@
+// React
 import React from "react";
+// Styled Components
 import styled from "styled-components";
+// Framer Motion
 import { motion } from "framer-motion";
+// Redux
 import { useDispatch } from "react-redux";
+// Actions
 import { loadDetail } from "../actions/detailAction";
+// Router
 import { Link } from "react-router-dom";
+// util
 import { smallImage } from "../util";
+// animations
 import { popUp } from "../animations";
 
 const Game = ({ id, name, released, image }) => {

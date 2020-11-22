@@ -1,4 +1,6 @@
+// Axios
 import axios from "axios";
+// api
 import {
   popularGamesURL,
   upcomingGamesURL,
